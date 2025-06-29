@@ -14,8 +14,8 @@ class InstagramBot:
         self.wait = WebDriverWait(self.driver, 10)
         
         #Accountdaten
-        self.username = "zitate.stan"
-        self.password = "FreibergAmNeckar2002"
+        self.username = "lifestyle.steven"
+        self.password = "Eg_Einladungen7531"
         self.target_account = "Zitate.stan"
 
     def accept_cookies(self):
