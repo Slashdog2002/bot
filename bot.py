@@ -72,7 +72,7 @@ class InstagramBot:
             search_field.send_keys(self.target_account)
             time.sleep(2)
             
-            # Click on target account
+            #Angegebener Account wird geklickt
             account_link = self.wait.until(EC.element_to_be_clickable(
                 (By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[1]/div[1]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/a[1]")))
             account_link.click()
